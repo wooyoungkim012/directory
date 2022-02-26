@@ -1,5 +1,7 @@
 import logo from './logo.svg';
+import ResultCard from "./ResultCard";
 import './App.css';
+import './ResultCard.css'
 
 function App() {
   return (
@@ -11,6 +13,16 @@ function App() {
       <div>
         <div className='searchbar'></div>
       </div>
+      <div className='resultSection'>
+        <ResultCard></ResultCard>
+        <ResultCard></ResultCard>
+        <ResultCard></ResultCard>
+        <ResultCard></ResultCard>
+        <ResultCard></ResultCard>
+        <ResultCard></ResultCard>
+        <ResultCard></ResultCard>
+        <ResultCard></ResultCard>
+        </div>
     </div>
   );
 }
