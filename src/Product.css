@@ -1,0 +1,13 @@
+.resultImg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 20vh;
+  border-radius: 1em;
+}
+
+.resultCard {
+  width: 80vw;
+  height: 70vh;
+}

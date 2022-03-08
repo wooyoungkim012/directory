@@ -1,34 +1,67 @@
-.picture {
-  width: 100%;
-  height: 100%;
-  background-image: url(https://imageio.forbes.com/specials-images/imageserve/600711a3116298c5795f68e2/Best-Water-Filters--Brita-Standard-Metro-Water-Filter-Pitcher/0x0.jpg?fit=crop&format=jpg&crop=500,500,x0,y0,safe);
-
+#result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40em;
+  width: 30em;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  left: 20em;
+  top: 20em;
 }
 
-.description {
+#image {
+  background-image: url("https://www.gaithersburgdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image-1024x683.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 20%;
+  min-height: -webkit-fill-available;
+  border-radius: 1em;
 }
 
-.card {
-  width: 20vw;
-  height: 30vh;
-  margin-bottom: 50px;
-  border-radius: 10px;
-  border: solid 1.5px grey;
+#result:hover {
+  background-image: url("https://www.goodnet.org/photos/281x197/34271_hd.jpg");
 }
 
-.card:hover {
-  transform: scale(1.1);
-}
-
-.resultSection {
-  display: flex;
+#classes {
+  padding-top: 20vh;
+  width: 75%;
+  padding-left: 5em;
+  padding-right: 5em;
+  height: 100vh;
+  align-self: center;
   flex-wrap: wrap;
+  display: flex;
   justify-content: space-between;
-  margin-top: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: auto;
+}
+
+.class-desc {
+  font-size: 0.75em;
+  padding: 1em;
+}
+
+.class-card {
+  background: white;
+  color: black;
+  height: 40%;
+  width: 20%;
+  border: solid 1px grey;
+
+  border-radius: 1em;
+  transition: all 0.2s ease-in-out;
+  margin: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.class-card:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.class-card a {
+  text-decoration: none;
+  color: black;
 }

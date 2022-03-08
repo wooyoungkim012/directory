@@ -7,6 +7,10 @@
   background: rgba(0, 23, 58, 0.747);
 }
 
+.hidden {
+  display: none !important;
+}
+
 .title {
   color: rgb(255, 255, 255);
   font-weight: bold;
@@ -19,4 +23,54 @@
   border: solid 2px grey;
   height: 2vw;
   width: 70%;
+}
+
+#results {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 200px 0 50px 0;
+  flex-wrap: wrap;
+}
+
+.class-card {
+  width: 18%;
+  padding: 20px;
+}
+
+#cardresults {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 3em;
+}
+
+.App {
+  background-color: #021d35;
+}
+#Brita {
+  background-image: url("https://res.cloudinary.com/clorox-dtc/image/upload/c_pad,h_602,w_650/v1/products/602c5e4187d56000107b76d1/Everyday%20Pitcher%20White%20-%20hero.webp");
+}
+
+#Berkey {
+  background-image: url("https://food.fnr.sndimg.com/content/dam/images/food/products/2020/8/18/rx_berkey-water-filter.jpg.rend.hgtvcom.616.616.suffix/1597762077930.jpeg");
+}
+
+#Hydros {
+  background-image: url("https://cdn.shopify.com/s/files/1/1838/1959/products/hydros_40oz_carafe_gray_padding_1200x.png?v=1587074813");
+}
+
+#ProPur {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/81bkMa79OeL._AC_UL210_SR210,210_.jpg");
+}
+
+.class-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 20vh;
+  border-radius: 1em;
 }

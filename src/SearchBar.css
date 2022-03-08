@@ -1,0 +1,14 @@
+input {
+  width: 60%;
+  height: 3em;
+  border-radius: 15px;
+  border: solid 1px grey;
+  transition: all 0.2s ease-in-out;
+  padding: 0 25px 0 25px;
+  font-size: 1.2em;
+}
+
+input:focus {
+  box-shadow: 2px 2px 2px white;
+  transform: scale(1.01);
+}
